@@ -4,7 +4,6 @@ import { useState, useMemo, useEffect } from 'react';
 import Header from '@/components/Header';
 import AIOutfitMatcher from '@/components/AIOutfitMatcher';
 import ClothingGrid from '@/components/ClothingGrid';
-import { sampleClothingItems } from '@/lib/sampleData';
 import { getUserUploadedItems } from '@/lib/storage';
 import { AIMatchedTags, ClothingItem } from '@/lib/types';
 
